@@ -5,7 +5,8 @@ Before I save the data I filter those tweets who are delted so I save only tweet
 
 Steps to run the project(Assuming you have kafka, hadoop, spark and other configuration ready to be used)
 
-1 gain twitter developer api acess like access token, secret other (I am removing my key for secruity purpose)
-2. create kafka topic
+1. Gain twitter developer api acess like access token, secret other (I removed my key for secruity purpose).
+
+2. create kafka topic called ```tweets``` . 
 3. create the table you can find  the hive-config hql file it's name is ```tweets.hql``` this is going to create the schema. 
 4. to run the application consequtively and see what's it's saving by going to hue select Hive under query option and you can do ```Select * from tweets``` and that helps you see the result. 
